@@ -1,0 +1,217 @@
+* {
+  
+    box-sizing: content-boxs;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  
+  
+  
+ .container-fluid {
+ 
+ background-color: white;
+    }
+
+
+  
+   /* Position site title and motto */
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+  color: #29e010;
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+  color: #0ddd29;
+}
+
+.navbar-brand span {
+  font-size: 0.9rem;
+  color: hsl(113, 87%, 42%);
+  margin-top: 0.2rem;
+}
+
+.navbar-nav .nav-link {
+  color: green !important;
+
+  
+
+}
+
+form.d-flex .form-control {
+  border: 3px solid #0e0d0d;
+}
+
+
+.navbar-nav {
+  margin-left: auto; /* Pushes the nav items to the right */
+
+
+}
+
+.paragraph{
+  color: black;
+  text-align: center;
+
+}
+
+
+  
+
+.cont-m{
+  background-color: white;
+
+}
+
+.beauty{
+  width: 100%;
+  height: 70vh;
+}
+.image-row {
+  display: flex; /* Makes the container a flexbox */
+  
+  align-items: flex-start;
+  gap: 5px; /* Adds spacing between the items */
+
+}
+
+.image-item {
+  text-align: center; /* Centers the text below each image */
+  width: 20%; /* Adjusts the width of each item */
+  
+}
+
+.image-item img {
+  width: 100%; /* Makes the image fill the container */
+  height: 40vh; /* Maintains the aspect ratio */
+  padding: 0%;
+  display: inline;
+}
+
+.image-item p {
+  margin-top: 10px; /* Adds spacing between the image and the text */
+  font-size: 0.9rem; /* Adjusts the font size */
+  color: #333; /* Sets the text color */
+}
+.price {
+  color: red; /* Sets the text color to red */
+  font-weight: bold; /* Optional: Makes the text bold */
+  margin-top: 5px; /* Optional: Adds spacing above the price text */
+}
+
+.promotion {
+  background-image: url('images/amir-seilsepour-_hAaFD1ucfk-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(133, 128, 128); /* Ensures text is visible */
+  text-align: center; /* Centers the content */
+  padding: 50px; /* Adds some spacing */
+  position: relative;
+}
+
+.promo-content {
+  background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+  padding: 20px;
+  border-radius: 10px; /* Slight rounding for a sleek design */
+  display: inline-block;
+}
+
+.gift {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ff4081; /* A vibrant color for CTA */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Optional: Add text shadow for better readability */
+.promo-content h1,
+.promo-content a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+.gift{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+
+}
+.link{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.link:hover{
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+.footer{
+  width: 100%;
+  height: 200px;
+  border: 1px solid turquoise;
+  border-radius: 0 0 10px 10px;
+  background-image: linear-gradient(90deg, rgb(221, 244, 242), rgb(225, 237, 140), rgb(207, 230, 207));
+}
+
+.footer-content{
+  text-align: center;
+  font-size: 1em;
+  color: navy;
+}
+
+.socialmedia{
+  width: 100%;
+  text-align: center;
+}
+
+.socialmedia img{
+  border: 2px solid aqua;
+  border-radius: 10px;
+}
+.containersolid{
+  background-color: #240a0a;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+
+
+
+
